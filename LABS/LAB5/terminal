@@ -1,0 +1,6 @@
+export LD_LIBRARY_PATH="($pwd)":$LD_LIBRARY_PATH
+
+gcc -shared -fPIC -Wall -Werror -std=c99 Vector.c -o libvec.so
+
+gcc mainDyn.c -ldl -std=c99 -o dyn
+

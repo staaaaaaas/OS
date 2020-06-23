@@ -1,0 +1,31 @@
+stas@stasPC:~/3SEM/OS/LAB2$ ./lab2
+Write a command(<h> for help):
+h
+command:
+<h>	help
+<e>	exit
+<a>	push element
+<b>	 pop element
+<c>	 print queue
+a
+enter the element:
+1
+c
+1
+
+a
+enter the element:
+2
+c
+1
+2
+
+b
+c
+2
+
+b
+c
+e
+stas@stasPC:~/3SEM/OS/LAB2$ 
+
